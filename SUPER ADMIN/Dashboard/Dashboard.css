@@ -130,3 +130,12 @@ body{
 #logout:active{
   font-size: 18px;
 }
+
+.working{
+  position: absolute;
+  top: 120px;
+  background-color: white;
+  width: 79%;
+  height: 78vh;
+  margin-left: 270px;
+}
