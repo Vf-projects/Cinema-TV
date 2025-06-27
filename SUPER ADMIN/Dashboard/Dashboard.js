@@ -22,15 +22,15 @@ sunBtn.addEventListener('click', () => {
     sunBtn.style.color = 'white';
   } else {
     document.body.style.backgroundColor = 'rgb(238, 238, 238)';
-    document.body.style.color = 'black';
+    document.body.style.color = '#df1648';
     Top.style.backgroundColor = 'white';
     sideBar.style.backgroundColor = 'white';
-    logo.style.color = 'black';
+    logo.style.color = '#df1648';
     liList.forEach(li => {
-      li.style.color = 'black';
+      li.style.color = '#df1648';
     });
-    logoutBtn.style.color = 'black';
+    logoutBtn.style.color = '#df1648';
     sunBtn.innerHTML = '<i class="bi bi-moon-fill"></i>';
-    sunBtn.style.color = 'black'; 
+    sunBtn.style.color = '#df1648'; 
   }
 });

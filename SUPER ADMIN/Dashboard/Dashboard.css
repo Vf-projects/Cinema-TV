@@ -6,7 +6,7 @@ body{
   overflow-x: hidden;
   font-family: "DM Sans", sans-serif;
   background-color: rgb(238, 238, 238);
-  color: black;
+  color: #df1648;
 }
 
 #top{
@@ -88,7 +88,7 @@ body{
 }
 
 .ul li{
-  color: black;
+  color: #df1648;
   text-decoration: none;
   font-weight: 400;
   margin-left: 20px;
@@ -121,6 +121,7 @@ body{
   background: none;
   font-size: 18px;
   cursor: pointer;
+  color: #df1648;
 }
 
 #logout:hover{
@@ -135,7 +136,25 @@ body{
   position: absolute;
   top: 120px;
   background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   width: 79%;
   height: 78vh;
   margin-left: 269px;
+}
+
+#movie-progress{
+  width: 150px;
+  height: 10px;
+  background-color: #df1648;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
